@@ -219,7 +219,7 @@ li a:hover {
 .buttoncheck {
     display: block;
     position: relative;
-    padding: 2px;
+    padding: 1.5px;
     padding-left: 35px;
     margin-bottom: 12px;
     cursor: pointer;
