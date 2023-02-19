@@ -65,17 +65,19 @@ li a:hover {
 /* Grupo cards 1*/
 .grupo{
     font-family: 'Inter', sans-serif;
-    font-size: 18px;
+    font-size: 15px;
 }
 .card1, .card2, .card3, .card4, .card5,
-.card6{
+.card6, .card7, .card8, .card9,.card10,
+.card11, .card12{
     box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
     transition: 0.3s;
     width: 100%;
 }
   
 .card1:hover, .card2:hover, .card3:hover, .card4:hover, .card5:hover,
-.card6:hover{
+.card6:hover, .card7:hover, .card8:hover, .card9:hover,.card10:hover,
+.card11:hover, .card12:hover{
     box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
 }
   
@@ -108,33 +110,6 @@ li a:hover {
 .card6{
     grid-area: card6;
 }
-
-.cardestudiantes1 {
-    grid:
-        "card1  card2  card3"  
-        "card4  card5  card6";
-    align-items: start;
-}
-
-/* Grupo cards 2*/
-.cardestudiantes2{
-    display: grid;
-    gap: 35px;
-    grid-area: colum2;
-}
-
-.card7, .card8, .card9,.card10,
-.card11, .card12{
-    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
-    transition: 0.3s;
-    width: 100%;
-}
-
-.card7:hover, .card8:hover, .card9:hover,.card10:hover,
-.card11:hover, .card12:hover{
-    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
-}
-
 .card7{
     grid-area: card7;
 }
@@ -153,10 +128,79 @@ li a:hover {
 .card12{
     grid-area: card12;
 }
-.cardestudiantes2 {
+
+.cardestudiantes1 {
     grid:
-        "card7  card8  card9"  
+        "card1  card2  card3"  
+        "card4  card5  card6"
+        "card7  card8  card9"
         "card10  card11  card12";
+    align-items: start;
+}
+
+/* Grupo cards 2*/
+.cardestudiantes2{
+    display: grid;
+    gap: 35px;
+    grid-area: colum2;
+}
+
+.card13,.card14,.card15,
+.card16,.card17,.card18,.card19,.card20,
+.card21,.card22,.card23,.card24{
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+    transition: 0.3s;
+    width: 100%;
+}
+
+.card13:hover,.card14:hover, .card15:hover,
+.card16:hover,.card17:hover,.card18:hover,.card19:hover,.card20:hover,
+.card21:hover,.card22:hover,.card23:hover,.card24:hover {
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+}
+
+.card13{
+    grid-area: card13;
+}
+.card14{
+    grid-area: card14;
+}
+.card15{
+    grid-area: card15;
+}
+.card16{
+    grid-area: card16;
+}
+.card17{
+    grid-area: card17;
+}
+.card18{
+    grid-area: card18;
+}
+.card19{
+    grid-area: card19;
+}
+.card20{
+    grid-area: card20;
+}
+.card21{
+    grid-area: card21;
+}
+.card22{
+    grid-area: card22;
+}
+.card23{
+    grid-area: card23;
+}
+.card24{
+    grid-area: card24;
+}
+.cardestudiantes2{
+    grid:
+        "card13  card14  card15"  
+        "card16  card17  card18"
+        "card19  card20  card21"
+        "card22  card23  card24";
     align-items: start;
 }
 
@@ -175,10 +219,11 @@ li a:hover {
 .buttoncheck {
     display: block;
     position: relative;
+    padding: 2px;
     padding-left: 35px;
     margin-bottom: 12px;
     cursor: pointer;
-    font-size: 18px;
+    font-size: 14px;
     -webkit-user-select: none;
     -moz-user-select: none;
     -ms-user-select: none;
